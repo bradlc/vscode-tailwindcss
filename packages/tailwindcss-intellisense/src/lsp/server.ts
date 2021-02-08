@@ -156,6 +156,8 @@ connection.onInitialize(
             '.',
             // config/theme helper
             '[',
+            // class name including '-'
+            '-',
             // TODO: restart server if separater changes?
             typeof state.separator === 'undefined' ? ':' : state.separator,
           ],
